@@ -51,15 +51,13 @@ export default function App() {
       </View>
 
       <View style={styles.footerContainer}>
-        <View style={styles.tuvContainer}>
           <Image
             source={require("../assets/images/tuvPic.png")}
             style={styles.tuvImage}
           />
           <Text style={styles.tuvText}>
-            Management{'\n'}System{'\n'}ISO 9001:2015{'\n'}CERTIFIED
+            CTU ISO ISO 9001:2015 certified by {'\n'} TUV Rheinland Philippines, Inc
           </Text>
-        </View>
       </View>
     </ImageBackground>
   );

@@ -98,23 +98,24 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   footerContainer: {
-    marginBottom: 20,
     alignItems: "flex-end",
+    width:"100%",
+  
   },
-  tuvContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
+  
   tuvImage: {
-    width: 60,
-    height: 60,
+    marginRight: -40,
+    width: 200,
+    height: 70,
     resizeMode: "contain",
   },
   tuvText: {
-    fontSize: 10,
-    marginLeft: 5,
-    color: "#333",
-    textAlign: "center",
+    fontSize: 8,
+    color: "white",
+    alignItems: "flex-end",
+
+    textAlign: "justify",
+
   },
 });
 export default styles;
