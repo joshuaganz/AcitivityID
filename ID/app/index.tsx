@@ -45,7 +45,7 @@ export default function App() {
           <View style={styles.line} />
           <Text style={styles.courseLabel}>COURSE</Text>
           <Text style={styles.idLabel}>
-            ID No.: <Text style={styles.idNumber}>1331217</Text>
+            ID No.: <Text style={styles.idNumber}>1331217 </Text>
           </Text>
         </View>
       </View>
@@ -56,7 +56,7 @@ export default function App() {
             style={styles.tuvImage}
           />
           <Text style={styles.tuvText}>
-            CTU ISO ISO 9001:2015 certified by {'\n'} TUV Rheinland Philippines, Inc
+            CTU IS ISO 9001:2015 certified by {'\n'} TUV Rheinland Philippines, Inc
           </Text>
       </View>
     </ImageBackground>

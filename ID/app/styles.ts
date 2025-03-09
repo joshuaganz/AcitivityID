@@ -7,8 +7,9 @@ const styles = StyleSheet.create({
   },
   header: {
     flexDirection: "row",
-    alignItems: "flex-start",
+    alignItems: "center",
     marginTop: 20,
+    marginLeft: 40,
   },
   logoContainer: {
     alignItems: "center",
@@ -35,7 +36,9 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "#333",
     lineHeight: 24,
+    fontFamily: "times", 
   },
+  
   campus: {
     fontSize: 12,
     color: "#333",
@@ -92,6 +95,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000",
     marginTop: 10,
+    marginRight: 90,
   },
   idNumber: {
     fontSize: 18,
@@ -110,12 +114,9 @@ const styles = StyleSheet.create({
     resizeMode: "contain",
   },
   tuvText: {
-    fontSize: 8,
+    fontSize: 9,
     color: "white",
     alignItems: "flex-end",
-
-    textAlign: "justify",
-
   },
 });
 export default styles;

@@ -36,6 +36,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "fonts": {
+        "TimesNewRoman": "./assets/fonts/times.ttf"
+      }
     }
   }
 }
