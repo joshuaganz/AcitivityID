@@ -112,6 +112,13 @@ const styles = StyleSheet.create({
     color: "white",
     marginTop: 2,
   },
+  centerCon:{
+    display: "flex",
+    justifyContent:"center",
+    alignItems:"center",
+    height: "100%", // Full height relative to parent
+
+  },
 });
 
 export default styles;

@@ -1,5 +1,5 @@
 import { View, Text, Image, StyleSheet, ImageBackground } from "react-native";
-import styles from "./style"; // Import styles
+import styles from "./styles"; // Import styles
 
 export default function App() {
   return (
@@ -31,39 +31,38 @@ export default function App() {
           </View>
         </View>
 
-        <View style={styles.idFaceCon}>
-          <Image
-            source={require("../assets/images/idFace.png")}
-            style={styles.idFace}
-          />
-        </View>
-        {/* Course and ID Section */}
-        <View style={styles.courseContainer}>
-          <Text style={styles.name}>KATRINA SHIN D. CABALLES</Text>
+        <View style={styles.centerCon}>
+          <View style={styles.idFaceCon}>
+            <Image
+              source={require("../assets/images/idFace.png")}
+              style={styles.idFace}
+            />
+          </View>
 
-          <Text style={styles.courseCode}>BSIT</Text>
-          {/* Horizontal Line BELOW BSIT */}
-          <View style={styles.line} />
-          <Text style={styles.courseLabel}>COURSE</Text>
-
-          {/* ID Number */}
-          <Text style={styles.idLabel}>
-            ID No.: <Text style={styles.idNumber}>1331217</Text>
-          </Text>
+          <View style={styles.courseContainer}>
+            <Text style={styles.name}>KATRINA SHIN D. CABALLES</Text>
+            <Text style={styles.courseCode}>BSIT</Text>
+            <View style={styles.line} />
+            <Text style={styles.courseLabel}>COURSE</Text>
+            <Text style={styles.idLabel}>
+              ID No.: <Text style={styles.idNumber}>1331217</Text>
+            </Text>
+          </View>
         </View>
 
-        <View style={styles.tuvContainer}>
-          <Image
-            source={require("../assets/images/tuvPic.png")}
-            style={styles.tuvImage}
-          />
-          <Text style={styles.tuvText}>
-            CTU is ISO 9001:2015 certified by {"\n"}TÜV Rheinland Philippines,
-            Inc.
-          </Text>
+        <View>
+          <View style={styles.tuvContainer}>
+            <Image
+              source={require("../assets/images/tuvPic.png")}
+              style={styles.tuvImage}
+            />
+            <Text style={styles.tuvText}>
+              CTU is ISO 9001:2015 certified by {"\n"}TÜV Rheinland Philippines,
+              Inc.
+            </Text>
+          </View>
         </View>
       </ImageBackground>
     </>
   );
 }
-
