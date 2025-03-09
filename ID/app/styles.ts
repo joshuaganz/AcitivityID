@@ -3,20 +3,16 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    padding: 20,
+    padding: 15,
   },
   header: {
     flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "flex-start",
-    width: "100%",
-    paddingHorizontal: 10,
-    marginTop: -550,
-    marginLeft: 10,
+    alignItems: "flex-start",
+    marginTop: 20,
   },
   logoContainer: {
     alignItems: "center",
+    marginRight: 10,
   },
   CTULogo: {
     width: 60,
@@ -29,96 +25,97 @@ const styles = StyleSheet.create({
   },
   headerTextContainer: {
     flex: 1,
-    marginLeft: 10,
   },
   rop: {
-    fontSize: 12,
-    textAlign: "left",
+    fontSize: 14,
+    color: "#333",
   },
   uniName: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: "bold",
-    textAlign: "left",
-    fontFamily: "TimesNewRoman",
+    color: "#333",
+    lineHeight: 24,
   },
   campus: {
     fontSize: 12,
-    textAlign: "left",
+    color: "#333",
+    marginTop: 2,
   },
-  boldText: {
-    fontWeight: "bold",
+  centerCon: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  idFaceCon: {
+    marginBottom: 10,
   },
   idFace: {
     width: 150,
     height: 150,
-    borderWidth: 2,
-    borderColor: "black",
+    borderWidth: 1,
+    borderColor: "#000",
   },
-  idFaceCon: {
-    display: "flex",
-    justifyContent: "center",
+  signatureContainer: {
     alignItems: "center",
+    marginVertical: 8,
+  },
+  signature: {
+    fontSize: 14,
+    color: "#333",
   },
   courseContainer: {
     alignItems: "center",
-    marginTop: 20,
-  },
-  courseCode: {
-    fontSize: 24,
-    fontWeight: "semibold",
-    color: "#000",
+    marginTop: 5,
   },
   name: {
-    fontSize: 24,
+    fontSize: 22,
+    fontWeight: "bold",
+    color: "#000",
+    marginBottom: 5,
+  },
+  courseCode: {
+    fontSize: 20,
     fontWeight: "bold",
     color: "#000",
   },
   line: {
-    width: "60%",
+    width: 200,
     height: 2,
     backgroundColor: "#000",
     marginVertical: 5,
   },
   courseLabel: {
     fontSize: 14,
-    fontWeight: "bold",
     color: "#000",
   },
   idLabel: {
     fontSize: 16,
-    fontWeight: "bold",
     color: "#000",
-    marginTop: 5,
+    marginTop: 10,
   },
   idNumber: {
     fontSize: 18,
     fontWeight: "bold",
-    color: "#000",
+  },
+  footerContainer: {
+    marginBottom: 20,
+    alignItems: "flex-end",
   },
   tuvContainer: {
-    position: "absolute",
-    bottom: 10,
-    right: 10,
+    flexDirection: "row",
     alignItems: "center",
   },
   tuvImage: {
-    width: 120,
+    width: 60,
     height: 60,
     resizeMode: "contain",
   },
   tuvText: {
     fontSize: 10,
+    marginLeft: 5,
+    color: "#333",
     textAlign: "center",
-    color: "white",
-    marginTop: 2,
-  },
-  centerCon:{
-    display: "flex",
-    justifyContent:"center",
-    alignItems:"center",
-    height: "100%", // Full height relative to parent
-
   },
 });
-
 export default styles;
+
